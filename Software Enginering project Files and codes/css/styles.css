@@ -1,0 +1,370 @@
+/*Alex Chen*/
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    background-color: white;
+}
+
+/* Nav Bar */
+nav{
+    border-bottom: 2px solid grey;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav img {
+    height: 34px;
+    width: 161px;
+    float: left;
+
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: rgb(44, 45, 32);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: white;
+    text-decoration: underline;
+}
+
+nav li a:current {
+    text-decoration: underline;
+}
+
+/* Image header */
+
+header {
+    width: 100%;
+    height: 300px;
+    display: block;
+    background-image: url(../images/header.png);
+
+}
+
+table{
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+    white-space: nowrap;
+}
+
+tr,td {
+  border: 1px solid black;
+  width: 100px;
+  overflow: hidden;
+}
+
+.big {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 50px;
+}
+
+.small {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+}
+
+/*Home page*/
+
+.content {
+    max-width: 900px;
+    height: 600px;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 0px;
+    font-family: 'Raleway', 'Montserrat', sans-serif;
+    line-height: 30px;
+}
+
+.content img {
+    height: auto;
+    width: 200px;
+}
+
+/*About us*/
+
+.contentau {
+    max-width: 900px;
+    height: 1000px;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 0px;
+    font-family: 'Raleway', 'Montserrat', sans-serif;
+    line-height: 30px;
+}
+
+#splitleft {
+    float: left;
+    background-color: transparent;
+    width: 50%;
+    height: 300px;
+}
+
+#splitright {
+    float: right;
+    background-color: transparent;
+    width: 50%;
+    height: 300px;
+}
+
+#splitleft img {
+    height: auto;
+    width: 450px;
+}
+
+#splitright img {
+    height: auto;
+    width: 450px;
+}
+
+
+/*Shop*/
+
+.shoptop{
+
+    width: 100%;
+    height: 200px;
+}
+
+#shopmain {
+    width: 100%;
+    height: 400px;
+}
+
+.shopleft{
+    float: left;
+    width: 45%;
+    height: 400px; 
+    text-align: left;
+}
+
+.shopright{
+    float: right;
+    width: 38%;
+    height: 400px;
+    text-align: left;
+}
+
+.shopright h1 {
+    text-align: center;
+}
+
+.shopleft h1 {
+    text-align: center;
+}
+
+div.shopimg {
+    margin-left: 12px;
+    float: left;
+    width: 210px;
+}
+
+div.shopimg img {
+    width: 100%;
+    height: auto;
+}
+
+#atc img{
+    height: 30px;
+    width: 165px;
+}
+
+div.shopleft {
+    text-align: right;
+}
+
+/*Cart*/
+
+.cartleft{
+    float: left;
+    width: 45%;
+    height: 400px; 
+    text-align: right;
+}
+
+.cartright{
+    float: right;
+    width: 50%;
+    height: 400px;
+    text-align: left;
+}
+
+#total {
+    text-align: right;
+}
+
+/*Footer*/
+
+#spacer {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+}
+
+#grass {
+    background-image: url('../images/motherboard.jpg');
+    width: 99%;
+    height: 290px;
+    background-color: white;
+    color: grey;
+    left: 8px;
+    right: 0px;
+    position: absolute;
+}
+
+.container {
+    color: darkgrey;
+    background-color: transparent;
+    height: 100px;
+    width: 600px;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+#leftbox {
+    background-color: transparent;
+    color: rgb(77, 210, 255);
+    font-size: 40px;
+    line-height: 80px;
+    height: 100%;
+    width: 38%;
+    float: left;
+}
+
+#icon {
+    background-color: transparent;
+    height: 100%;
+    width: 15%;
+    float: left;
+}
+
+#icon a {
+    background-color: transparent;
+}
+
+#icon p {
+    background-color: transparent;
+}
+
+#icon img {
+    object-fit: contain;
+    background-repeat: no-repeat;
+    border-radius: 60%;
+    height: 85%;
+    width: 95%;
+}
+
+/*Product Page/Cart */
+
+.product_wrapper {
+    float:left;
+    padding: 10px;
+    text-align: center;
+    }
+
+.product_wrapper:hover {
+    box-shadow: 0 0 0 2px #e5e5e5;
+    cursor:pointer;
+    }
+
+.product_wrapper .name {
+    font-weight:bold;
+    }
+
+.product_wrapper .buy {
+    text-transform: uppercase;
+    background: #F68B1E;
+    border: 1px solid #F68B1E;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 40px;
+    margin-top: 10px;
+}
+
+.product_wrapper .buy:hover {
+    background: #f17e0a;
+    border-color: #f17e0a;
+}
+
+.message_box .box{
+    margin: 10px 0px;
+    border: 1px solid #2b772e;
+    text-align: center;
+    font-weight: bold;
+    color: #2b772e;
+    }
+
+.table td {
+    border-bottom: #F0F0F0 1px solid;
+    padding: 10px;
+    }
+
+.cart_div {
+    float:right;
+    font-weight:bold;
+    position:relative;
+    }
+
+.cart_div a {
+    color:#000;
+    } 
+
+.cart_div span {
+    font-size: 12px;
+    line-height: 14px;
+    background: #F68B1E;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    left: 13px;
+    color: #fff;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+    }
+
+.cart .remove {
+    background: none;
+    border: none;
+    color: #0067ab;
+    cursor: pointer;
+    padding: 0px;
+    }
+    
+.cart .remove:hover {
+    text-decoration:underline;
+    }
+
+/**/

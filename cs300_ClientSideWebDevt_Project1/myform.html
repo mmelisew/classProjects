@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>my form</title>
+<!--Add the following meta tag to remove warning - but make sure you set the encoding to UTF-8 (no bom) before you save the file -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+<style type="text/css">
+form{
+width:975px;
+margin:auto;
+padding:30px;
+background:#3cb371;
+font-family:verdana;
+}
+input[type =text]{
+width:50%;
+padding:5px;
+font-size:16px;
+}
+select{
+font-size:18px;
+padd:5px;
+background:aqua;
+}
+</style>
+</head>
+<body>
+<form name="Melisew" action="" method="post">
+<fieldset>
+<legend>Your name</legend>
+<input type="text" name="First name"/>
+<legend>Last name</legend>
+<input type="text" name="Last name"/>
+</fieldset>
+<fieldset>
+  <legend>In what month did you born?</legend>
+  <select name="months">
+  <option>Jnuary</option>
+  <option>February</option>
+  <option>March</option>
+  <option>April</option>
+  <option>May</option>
+  <option>June</option>
+  <option>July</option>
+  <option>August</option>
+  <option>September</option>
+  <option>October</option>
+  <option>November</option>
+  <option>December</option>
+  </select>
+</fieldset>
+<fieldset>
+  <legend>Choose your favorite sports:</legend>
+  <input type="checkbox" name="checkallapply" value="soccer" />soccer 
+  <input type="checkbox" name="checkallapply" value="baseball" /> baseball
+  <input type="checkbox" name="checkallapply" value="basketball" />basketball
+  <input type="checkbox" name="checkallapply" value="golf" />golf
+  <input type="checkbox" name="checkallapply" value="table tennis" />table tennis 
+  <input type="checkbox" name="checkallapply" value="football" />football
+  <input type="checkbox" name="checkallapply" value="volleyball" />volleyball
+</fieldset> 
+<fieldset> 
+ <legend>What is your favorite month of each season?</legend>
+  <select name="seasons" multiple="multiple" size="6">
+  <optgroup label="Winter">
+	  <option>December</option>
+	  <option>Jnuary</option>
+	  <option>February</option>
+  </optgroup>
+  <optgroup label="Spring">
+	  <option>March</option>
+	  <option>April</option>
+	  <option>May</option>
+  </optgroup>
+  <optgroup label="Summer">
+	  <option>June</option>
+	  <option>July</option>
+	  <option>August</option>
+  </optgroup>
+  <optgroup label="Fall">
+	  <option>September</option>
+	  <option>October</option>
+	  <option>November</option>
+  </optgroup>
+  </select>
+</fieldset> 
+<fieldset> 
+<legend>How do you like web development class?</legend>
+	<textarea name="paragraph" rows="5" cols="60" >Enter your comments here...</textarea>
+</fieldset> 
+<fieldset>
+<legend>If you finished click submit or click reset to clear the form</legend>
+  <button type="submit"> submit</button>
+  <button type="reset">reset</button>
+</fieldset>
+</form>
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+  </p>
+</body>
+</html>

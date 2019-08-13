@@ -1,0 +1,49 @@
+table{
+	margin-left:auto;
+	margin-right:auto;
+	width:975px;
+	border:0px;
+	}  
+#topbanner{
+	text-align:center;
+	font-family:georgian;
+	background-color:aqua;
+	font-weight:bolder; 
+	font-size:16px;
+	border:0px;
+	}
+#body{
+	background-color:#0099CC;
+	text-align:left;
+	border:0px;
+	}
+#footer{
+	background-color:aqua;
+	font-family:georgian;
+	text-align:center;
+	border:0px;
+	}
+
+#navbar ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;	
+}
+#navbar li {float: left;}
+#navbar li a {
+	font-size: 16px;
+	font-family:Arial;
+	font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+#navbar li a:hover {background-color: yellow;}
+#navbar a:link {color: aqua;}
+#navbar a:visited {color: red;}
+
+span {color:red;}
