@@ -1,0 +1,56 @@
+<!-- Alex Chen -->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta name="keywords" content="html, css, web development, neiu">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet"> 
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		var images = ["images/psu.jpg", "images/processor.jpg", "images/mobo.jpg", "images/monitor.jpg", "images/harddrive.jpg"];
+		var i = 0;
+		var change = setInterval(function(){
+			if (images.length == i){
+				i = 0;
+			}
+			else{
+				document.getElementById("changeImage").src = images[i];
+				i++;
+			}
+		}, 3000)
+	</script>
+	<title>PC Store Home</title>
+</head>
+<body>
+	<nav>
+		<img src="images/pcstore.png" alt="pcstore logo">
+		<ul>
+			<li>
+				<a href="aboutus.html">About Us</a>
+			</li>
+			<li>
+				<a href="cart.php">Cart</a>
+			</li>
+			<li>
+				<a href="index.php">Product Catalog</a>
+			</li>
+			<li>
+				<a href="register.php">Register</a>
+			</li>
+			<li>
+				<a href="login.php">Login</a>
+			</li>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+		</ul>
+	</nav>
+	<header>
+		<div class="big">PC Store</div><br>
+		<span class="small">The PC store built to cater to your specifications!</span>
+	</header>
+
+<!-- Start of the page-specific content. -->
+<!-- Script 9.1 - header.html -->

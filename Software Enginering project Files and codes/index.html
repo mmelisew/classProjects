@@ -1,0 +1,88 @@
+<!-- Alex Chen -->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta name="keywords" content="html, css, web development, neiu">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet"> 
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		var images = ["images/psu.jpg", "images/processor.jpg", "images/mobo.jpg", "images/monitor.jpg", "images/harddrive.jpg"];
+		var i = 0;
+		var change = setInterval(function(){
+			if (images.length == i){
+				i = 0;
+			}
+			else{
+				document.getElementById("changeImage").src = images[i];
+				i++;
+			}
+		}, 3000)
+	</script>
+	<title>PC Store Home</title>
+</head>
+<body>
+	<nav>
+		<img src="images/pcstore.png" alt="pcstore logo">
+		<ul>
+			<li>
+				<a href="aboutus.html">About Us</a>
+			</li>
+			<li>
+				<a href="cart.php">Cart</a>
+			</li>
+			<li>
+				<a href="index.php">Product Catalog</a>
+			</li>
+			<li>
+				<a href="register.php">Register</a>
+			</li>
+			<li>
+				<a href="login.php">Login</a>
+			</li>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+		</ul>
+	</nav>
+
+	<header>
+		<div class="big">PC Store</div><br>
+		<span class="small">The PC store built to cater to your specifications!</span>
+	</header>
+
+	<div class="content">
+		<img id="changeImage" src="images/mobo.jpg" alt="frames image">
+		<h1>Welcome!</h1>
+		<h4>It is our pleasure to have you here with us! Here at the PC Store, we provide you with an easy way to find specific parts for your computer to build your dream computer.  </h4>
+		<br/>
+		<h1>About Us</h1>
+		<h4>Founded in 2010 by three friends who found no alternative in customizing PC with unique parts for computer builder in the current marketplace. They sought to open a computer retail shop that would cater to computer enthusiasts and computer minded people alike. It is our pleasure to bring you more specialized parts for you computer needs. </h4>
+	</div>
+	<footer>
+		<div id="spacer"></div>
+		<div id="grass">
+			<div class="container">
+				<div id="leftbox">
+					Follow Us!
+				</div>
+				<div id="icon">
+					<a href="http://www.twitter.com" title="twitter" target="_blank"><img src="images/twitter.jpg"></a>
+				</div>
+				<div id="icon">
+					<a href="http://www.instagram.com" title="instagram" target="_blank"><img src="images/instagram.jpg"></a>
+				</div>
+				<div id="icon">
+					<a href="http://www.facebook.com" title="facebook" target="_blank"><img src="images/facebook.jpg"></a>
+				</div>
+				<div id="icon">
+					<a href="http://www.gmail.com" title="email" target="_blank"><img src="images/email.jpg"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
